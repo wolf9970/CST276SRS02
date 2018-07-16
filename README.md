@@ -12,8 +12,8 @@ Project Name(s):
 
 Purposes:  
 
-    - Learn to implement the cannonical GoF Template Method Pattern.  
-    - Learn to implement the cannonical GoF Strategy Pattern.  
+    - Learn to implement the canonical GoF Template Method Pattern.  
+    - Learn to implement the canonical GoF Strategy Pattern.  
     - Learn to modify code to use the GoF Strategy and/or Template Method Pattern.  
     - Learn to choose the correct pattern.  
     - Practice citations for patterns.  

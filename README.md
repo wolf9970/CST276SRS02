@@ -17,6 +17,7 @@ Purposes:
     - Learn to modify code to use the GoF Strategy and/or Template Method Pattern.  
     - Learn to choose the correct pattern.  
     - Practice citations for patterns.  
+    - Learn to document code with UML class diagrams.  
 
 
 Motivation Scenario:  

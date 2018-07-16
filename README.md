@@ -22,13 +22,13 @@ Purposes:
 
 Motivation Scenario:  
     
-You've been asked to quickly write a date validation function for the company Vandelay Importer Exporter Industries. You quickly write an class to handle the task.  
+You've been asked to write a date validation function for the company Vandelay Importer Exporter Industries. You quickly write a class to handle the task.  
 
 ```
 class DateValidator{...};  
 ```
 
-After creating the class, your boss reminds you that you work in the Import/Export business and must  handle international clients. Being in a hurry, you modify your class:  
+After creating the class, your boss reminds you that you work in the Import/Export business and must handle international clients. Being in a hurry, you modify your class:  
 
 ```
 class DateValidatorI18N{...}  
@@ -56,7 +56,7 @@ public:
 };  
 ```
 
-Then start using the Strategy and Template Method patterns to handle all 4 cases as well as any future additional ones.  
+You start using the Strategy and Template Method patterns to handle all 4 cases as well as any unexpected future formats. 
 
 
 Specification:  
@@ -67,11 +67,11 @@ Specification:
     - Create the 4 projects.  
     - Using GoF, implement the UML class diagram structure in C++ for GoFStrategy and GoFTemplateMethod.  
 
-    - Create the naive DateI18NEnum using a class enum for 3 different date formats: YMD, DMY, and MDY.  Read up on C++11 class enums if you are not familiar already.  
+    - Create the naive class DateI18NEnum using a class enum for 3 different date formats: YMD, DMY, and MDY. Read up on C++11 class enums if you are not familiar already.  
 
     - Once this is working, duplicate the project code to start your DateI18N project. Apply the Strategy and/or Template Method patterns to help make the code easier to modify. 
 
-    - Add the new YDM format to both DateI18NEnum and DateI18N, noting the places where you had to modify your implementation to handle the new format.  
+    - Add the new YDM format to both DateI18NEnum and DateI18N projects, noting the places where you had to modify your implementation to handle the new format.  
 
     - In your report, note the differences between what it took to modify the code for both projects, include both pros and cons for each project design.  
     

@@ -18,6 +18,7 @@ Purposes:
     - Learn to choose the correct pattern.  
     - Practice citations for patterns.  
 
+
 Motivation Scenario:  
     
 You've been asked to quickly write a date validation function for the company Vandelay Importer Exporter Industries. You quickly write an class to handle the task.  
@@ -36,19 +37,19 @@ public:
 
 You turn in this project and all is good... for a while. Then your boss tells you to ship something to Latvia and you look up the date format to use on Wikipedia and discover you can't handle this format:
 
-https://en.wikipedia.org/wiki/Calendar_date#Gregorian,_year-day-month_(YDM)
+[https://en.wikipedia.org/wiki/Calendar_date#Gregorian,_year-day-month_(YDM)](Dates In Latvia, Nepal and Turkmenistan)
 
-You realize the strategy you used to validate using an enum is fundamentally flawed and decide to apply the a design pattern to help make your code more flexible. 
+You realize the code you created to validate using an enum is not ideal and decide to apply a GoF design pattern to help make your code more flexible.  
 
-You come up with the following interface:
+You come up with the following interface:  
 
-class IDateValidator
-{
-public:
-    virtual bool is_good(std::string const date) const = 0;
-};
+class IDateValidator  
+{  
+public:  
+    virtual bool is_good(std::string const date) const = 0;  
+};  
 
-Then start using the Strategy and Template Method patterns to handle all 4 cases as well as any future additional ones.
+Then start using the Strategy and Template Method patterns to handle all 4 cases as well as any future additional ones.  
 
 
 Specification:  

@@ -47,11 +47,13 @@ You realize the code you created to validate using an enum is not ideal and deci
 
 You come up with the following interface:  
 
+```
 class IDateValidator  
 {  
 public:  
     virtual bool is_good(std::string const date) const = 0;  
 };  
+```
 
 Then start using the Strategy and Template Method patterns to handle all 4 cases as well as any future additional ones.  
 

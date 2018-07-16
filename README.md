@@ -23,21 +23,25 @@ Motivation Scenario:
     
 You've been asked to quickly write a date validation function for the company Vandelay Importer Exporter Industries. You quickly write an class to handle the task.  
 
-class DateValidator{...};
+```
+class DateValidator{...};  
+```
 
-After creating the class, your boss reminds you that you work in the Import/Export business and must  handle international clients. Being in a hurry, you modify your class:
+After creating the class, your boss reminds you that you work in the Import/Export business and must  handle international clients. Being in a hurry, you modify your class:  
 
-class DateValidatorI18N{...};
-{
-public:
-    enum class Format { YMD, DMY, MDY };
+```
+class DateValidatorI18N{...}  
+{  
+public:  
+    enum class Format { YMD, DMY, MDY };  
 
 ...  
-};
+};  
+```
 
-You turn in this project and all is good... for a while. Then your boss tells you to ship something to Latvia and you look up the date format to use on Wikipedia and discover you can't handle this format:
+You turn in this project and all is good... for a while. Then your boss tells you to ship something to Latvia and you look up the date format to use on Wikipedia and discover you can't handle this format:  
 
-[https://en.wikipedia.org/wiki/Calendar_date#Gregorian,_year-day-month_(YDM)](Dates In Latvia, Nepal and Turkmenistan)
+[Dates In Latvia, Nepal and Turkmenistan](https://en.wikipedia.org/wiki/Calendar_date#Gregorian,_year-day-month_(YDM))  
 
 You realize the code you created to validate using an enum is not ideal and decide to apply a GoF design pattern to help make your code more flexible.  
 

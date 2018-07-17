@@ -31,12 +31,12 @@ class DateValidator{...};
 After creating the class, your boss reminds you that you work in the Import/Export business and must handle international clients. Being in a hurry, you modify your class:  
 
 ```
-class DateValidatorI18N{...}  
+class DateValidatorI18N  
 {  
 public:  
     enum class Format { YMD, DMY, MDY };  
 
-...  
+    ...  
 };  
 ```
 

@@ -9,7 +9,15 @@
 
 class ConcreteStrategyA : public Strategy
 {
-    void AlgorithmInterface();
+public:
+
+    ConcreteStrategyA() = default;
+    ~ConcreteStrategyA() = default;
+
+    void AlgorithmInterface()
+    {
+        //Strat A
+    }
 };
 
 

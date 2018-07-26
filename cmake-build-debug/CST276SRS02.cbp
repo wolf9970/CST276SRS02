@@ -93,25 +93,13 @@
 		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/DateI18NEnum/DateI18NEnum.h">
 			<Option target="CST276SRS02"/>
 		</Unit>
-		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyA.cpp">
-			<Option target="CST276SRS02"/>
-		</Unit>
 		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyA.h">
-			<Option target="CST276SRS02"/>
-		</Unit>
-		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyB.cpp">
 			<Option target="CST276SRS02"/>
 		</Unit>
 		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyB.h">
 			<Option target="CST276SRS02"/>
 		</Unit>
-		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyC.cpp">
-			<Option target="CST276SRS02"/>
-		</Unit>
 		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyC.h">
-			<Option target="CST276SRS02"/>
-		</Unit>
-		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Context.cpp">
 			<Option target="CST276SRS02"/>
 		</Unit>
 		<Unit filename="/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Context.h">

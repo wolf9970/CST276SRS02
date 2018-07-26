@@ -5,10 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/wolf/CLionProjects/CST276SRS02/DateI18N/DateI18N.cpp" "/home/wolf/CLionProjects/CST276SRS02/cmake-build-debug/CMakeFiles/CST276SRS02.dir/DateI18N/DateI18N.cpp.o"
-  "/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyA.cpp" "/home/wolf/CLionProjects/CST276SRS02/cmake-build-debug/CMakeFiles/CST276SRS02.dir/GoFStrategy/ConcreteStrategyA.cpp.o"
-  "/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyB.cpp" "/home/wolf/CLionProjects/CST276SRS02/cmake-build-debug/CMakeFiles/CST276SRS02.dir/GoFStrategy/ConcreteStrategyB.cpp.o"
-  "/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyC.cpp" "/home/wolf/CLionProjects/CST276SRS02/cmake-build-debug/CMakeFiles/CST276SRS02.dir/GoFStrategy/ConcreteStrategyC.cpp.o"
-  "/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Context.cpp" "/home/wolf/CLionProjects/CST276SRS02/cmake-build-debug/CMakeFiles/CST276SRS02.dir/GoFStrategy/Context.cpp.o"
   "/home/wolf/CLionProjects/CST276SRS02/GoFTemplateMethod/ConcreteClass.cpp" "/home/wolf/CLionProjects/CST276SRS02/cmake-build-debug/CMakeFiles/CST276SRS02.dir/GoFTemplateMethod/ConcreteClass.cpp.o"
   "/home/wolf/CLionProjects/CST276SRS02/main.cpp" "/home/wolf/CLionProjects/CST276SRS02/cmake-build-debug/CMakeFiles/CST276SRS02.dir/main.cpp.o"
   )

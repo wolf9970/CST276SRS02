@@ -13,12 +13,12 @@ class ConcreteClass : public AbstractClass
 public:
     void PrimitiveOperation1()
     {
-        std::cout << "PrimOp1 of Subclass" << std::endl;
+        // redefine base class method
     }
 
     void PrimitiveOperation2()
     {
-        std::cout << "PrimOp2 of Subclass" << std::endl;
+        // redefine base class method
     }
 };
 

@@ -2,14 +2,13 @@
 // Created by wolf on 7/28/18.
 //
 
-#include <stdexcept>
 #include "IDateValidator.h"
 
 std::vector<std::string> IDateValidator::ParseString(std::string date, const std::string& delim)
 {
     std::vector<std::string> dateVector;
 
-    while (!(date.empty()))
+    while (!date.empty())
     {
         auto substringIndex = date.find(delim);
 

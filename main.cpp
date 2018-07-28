@@ -10,8 +10,8 @@
 
 int main()
 {
-    //DateI18N date(new YMDValidate, "1990-12-12");
-    //date.DateValidate();
+    DateI18N date(new YMDValidate, "1990-12-31");
+    date.DateValidate();
 
     //DateI18N date1(new YDMValidate, "2018-12-5");
     //date1.DateValidate();

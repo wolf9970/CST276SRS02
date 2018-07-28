@@ -2,20 +2,25 @@
 // Created by wolf on 7/21/18.
 //
 
-#include "GoFStrategy/Context.h"
-#include "GoFStrategy/ConcreteStrategyA.h"
-#include "GoFStrategy/ConcreteStrategyB.h"
-#include "GoFStrategy/ConcreteStrategyC.h"
+#include "DateI18N/DateI18N.h"
+#include "DateI18N/YMDValidate.h"
+#include "DateI18N/YDMValidate.h"
+#include "DateI18N/DMYValidate.h"
+#include "DateI18N/MDYValidate.h"
 
 int main()
 {
-    auto* c1{new ConcreteStrategyA};
-    auto* c2{new ConcreteStrategyB};
-    auto* c3{new ConcreteStrategyC};
+    //DateI18N date(new YMDValidate, "1990-12-12");
+    //date.DateValidate();
 
-    c1->AlgorithmInterface();
-    c2->AlgorithmInterface();
-    c3->AlgorithmInterface();
+    //DateI18N date1(new YDMValidate, "2018-12-5");
+    //date1.DateValidate();
+
+    //DateI18N date2(new DMYValidate, "31-06-2012");
+    //date2.DateValidate();
+
+    //DateI18N date3(new MDYValidate, "12-16-2016");
+    //date3.DateValidate();
 
     return 0;
 }

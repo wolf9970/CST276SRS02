@@ -6,33 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyA.h
-Strategy.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Strategy.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/DMYValidate.h
+IDateValidator.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/IDateValidator.h
 
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyB.h
-Strategy.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Strategy.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/DateI18N.h
+IDateValidator.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/IDateValidator.h
 
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyC.h
-Strategy.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Strategy.h
-
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Context.h
-Strategy.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Strategy.h
-
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Strategy.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/IDateValidator.h
+vector
+-
+string
+-
+stdexcept
+-
 iostream
 -
 
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/MDYValidate.h
+IDateValidator.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/IDateValidator.h
+
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/YDMValidate.h
+IDateValidator.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/IDateValidator.h
+
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/YMDValidate.h
+IDateValidator.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/IDateValidator.h
+
 /home/wolf/CLionProjects/CST276SRS02/main.cpp
-GoFStrategy/Context.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/Context.h
-GoFStrategy/ConcreteStrategyA.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyA.h
-GoFStrategy/ConcreteStrategyB.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyB.h
-GoFStrategy/ConcreteStrategyC.h
-/home/wolf/CLionProjects/CST276SRS02/GoFStrategy/ConcreteStrategyC.h
+DateI18N/DateI18N.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/DateI18N.h
+DateI18N/YMDValidate.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/YMDValidate.h
+DateI18N/YDMValidate.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/YDMValidate.h
+DateI18N/DMYValidate.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/DMYValidate.h
+DateI18N/MDYValidate.h
+/home/wolf/CLionProjects/CST276SRS02/DateI18N/MDYValidate.h
 
